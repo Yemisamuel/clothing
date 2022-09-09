@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art</title>
+
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/index.css">    
+</head>
+<body>
+  
+  
+    <div class="Bg">
+      <nav id="mainNav" class="navbar navbar-expand-md   fixed-top" >
+        <a class="navbar-brand d-flex justify-content-start" href="#"> <span><i class="bi bi-camera"></i></span>Body Art</a>
+        <button class="navbar-toggler justify-content-end" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon bg-dark"></span>
+        </button>
+        <div class="collapse navbar-collapse  flex-column flex-sm-row justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="/outfit.html">Outfit</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/stock.html">Stock</a>
+            </li>
+          </ul> 
+        </div>
+      </nav>
+    
+          
+      <video autoplay loop muted plays-inline width="100%" class="video">
+        <source src="/images/vid.mp4" type="video/mp4">
+      </video>
+    
+        <div class="first">
+           <form class=" flex-column mt-sm-4" action="" >
+            <input type="text" class="input" placeholder="search engine">
+           </br><button class="btn ">GO <img src="/images/arrow-2919-861726.png" ></button>
+           </form>
+        </div>
+    </div>
+
+    <div class="container-fluid px-0 mt-5">
+
+      <div class="jumbotron d-flex align-items-center justify-content-start">
+        <!-- previous arrow -->
+        <img src="/images/Tommy_Hilfiger_logo_grey-700x700.png" width="100px">
+        <h2>....we like to introduce you to our new collection</h2>
+     
+      </div>
+    
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-md-6" id="shirt">
+                    <div id="image"><img src="/images/sh1.webp" width="100%"></div>
+                </div>
+
+                   <div class=" col-12 col-md-6 ">
+                        <div class="boX d-none d-md-block">        
+            </div>
+    <img src="/images/" alt="">
+        </div>
+
+    <script src="/jquery/jquery-3.6.0.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+
+    <script>
+      $(function (){
+         $(document).scroll(function(){
+             var $nav = $("#mainNav");
+             $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
+         })
+     })
+
+     const shirt = document.getElementById("shirt");
+    const display = new Array(
+      "/images/sh1.webp",
+      "/images/sh2.webp",
+      "/images/sh3.jpg",
+    )
+     
+    let i= new Array;
+
+    let move = function(){
+        math.random(i)
+    }
+   
+  </script>
+    
+</body>
+</html>
